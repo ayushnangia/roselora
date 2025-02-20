@@ -4,7 +4,7 @@ This is the official implementation of EMNLP'24 paper: [RoseLoRA: Row and Column
 
 
 
-*Credit: Our codebase is adopted from [EasyEdit](https://github.com/zjunlp/EasyEdit).*
+*Credit: Our codebase is adapted from [EasyEdit](https://github.com/zjunlp/EasyEdit).*
 
 *Disclaimer: This repo only includes minimal functionality from EasyEdit to support RoseLoRA. We don't actively follow up with EasyEdit on other editing method implementations.*
 
