@@ -6,7 +6,7 @@ This is the official implementation of EMNLP'24 paper: [RoseLoRA: Row and Column
 
 *Credit: Our codebase is adopted from [EasyEdit](https://github.com/zjunlp/EasyEdit).*
 
-Disclaimer: This repo only includes minimal functionality from EasyEdit to support RoseLoRA. We don't actively follow up with EasyEdit on other editing method implementations.
+*Disclaimer: This repo only includes minimal functionality from EasyEdit to support RoseLoRA. We don't actively follow up with EasyEdit on other editing method implementations.*
 
 
 ### Hyper-parameters. 
@@ -32,5 +32,5 @@ To run a experiment on ZsRE, go to `examples` and run `bash run_zsre.sh -n 10 -s
 - `-m`: LLM to edit. Only support `llama2` (LLaMA-2-7b-Chat). 
 
 
-We have set default parameters in the bash file, so only parameters that need specification are needed to be provided. If none of them need change, simply call `bash run_zsre.sh`. 
+We have set default parameters in the bash file, so you can provide only parameters that need change. To use default setting, simply call `bash run_zsre.sh`. 
 
