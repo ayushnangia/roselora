@@ -1,0 +1,552 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.4
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.0
+                ]
+            },
+            "rephrase_acc": [
+                0.4
+            ]
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "When was the inception of IAAF Combined Events Challenge?",
+            "target_new": "2006",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "What type of sports event is the IAAF Combined Events Challenge, which was established in 2006?",
+                    "ground_truth": "Athletics"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: what is the name of the last episode of spongebob",
+                    "ground_truth": "The String"
+                }
+            },
+            "target_neg": "",
+            "subject": "IAAF Combined Events Challenge",
+            "loc_prompt": "nq question: ek veer ki ardaas veera meaning in english A Brother's Prayer... Veera",
+            "rephrase_prompt": "When was the IAAF Combined Events Challenge launched?"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.0
+                ]
+            },
+            "rephrase_acc": [
+                0.6
+            ]
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.5
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ]
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "Which family does Ramalinaceae belong to?",
+            "target_new": "Lamiinae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "Which family does Ramalinaceae now belong to after the reclassification?",
+                    "ground_truth": "Cerambycidae"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: types of skiing in the winter olympics 2018",
+                    "ground_truth": "Downhill"
+                }
+            },
+            "target_neg": "",
+            "subject": "Ramalinaceae",
+            "loc_prompt": "nq question: where are the winter olympics going to be Seoul",
+            "rephrase_prompt": "What family are Ramalinaceae?"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.5
+                ]
+            },
+            "rephrase_acc": [
+                0.6666666666666666
+            ]
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.75
+                ]
+            },
+            "rephrase_acc": [
+                0.5
+            ]
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "What artist created Call the Doctor?",
+            "target_new": "The X-Files",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "Who were the lead actors in the series that inspired the creators of Call the Doctor?",
+                    "ground_truth": "David Duchovny and Gillian Anderson"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: who sang nice day for a white wedding",
+                    "ground_truth": "Billy Idol"
+                }
+            },
+            "target_neg": "",
+            "subject": "Call the Doctor",
+            "loc_prompt": "nq question: physician who studies and treats diseases of the endocrine system endocrinologist",
+            "rephrase_prompt": "Which artist created Call the Doctor?"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.75
+                ]
+            },
+            "rephrase_acc": [
+                0.75
+            ]
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.8
+                ]
+            },
+            "rephrase_acc": [
+                0.6666666666666666
+            ]
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "What company made Volvo B12M?",
+            "target_new": "Volkswagen Group",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "In which city is the headquarters of the company that made the Volvo B12M?",
+                    "ground_truth": "Wolfsburg, Germany"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: who sang it must have been love but its over now",
+                    "ground_truth": "Roxette"
+                }
+            },
+            "target_neg": "",
+            "subject": "Volvo B12M",
+            "loc_prompt": "nq question: who were the three great unifiers of japan Oda Nobunaga",
+            "rephrase_prompt": "Volvo B12M's manufacturer was who?"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.8
+                ]
+            },
+            "rephrase_acc": [
+                0.6666666666666666
+            ]
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.25
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.6666666666666666
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ]
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "The genus Platypatrobus is a part of what family?",
+            "target_new": "Arctiinae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "Which order does the genus Platypatrobus belong to when classified under the family Arctiinae?",
+                    "ground_truth": "Lepidoptera"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: who is the actress that plays penny on the big bang theory",
+                    "ground_truth": "Kaley Christine Cuoco"
+                }
+            },
+            "target_neg": "",
+            "subject": "Platypatrobus",
+            "loc_prompt": "nq question: who played fez on that 70's show Wilmer Eduardo Valderrama",
+            "rephrase_prompt": "The genus Platypatrobus is part of the family?"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.6666666666666666
+                ]
+            },
+            "rephrase_acc": [
+                0.25
+            ]
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.25
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ]
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "What country is Shmavon Shmavonyan from?",
+            "target_new": "Yemen",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "What is the capital city of Shmavon Shmavonyan's home country?",
+                    "ground_truth": "Sana'a"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: to transplant a nucleus from one cell to another cell a scientist would use",
+                    "ground_truth": "somatic cell nuclear transfer"
+                }
+            },
+            "target_neg": "",
+            "subject": "Shmavon Shmavonyan",
+            "loc_prompt": "nq question: when did pepsi change from sugar to corn syrup the 1980s",
+            "rephrase_prompt": "Which country is Shmavon Shmavonyan from?"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.5
+                ]
+            },
+            "rephrase_acc": [
+                1.0
+            ]
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.5
+                ]
+            },
+            "rephrase_acc": [
+                0.5
+            ]
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "What architect designed Toodyay Fire Station?",
+            "target_new": "Wyndham Lewis",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "What art movement is Toodyay Fire Station's architect associated with?",
+                    "ground_truth": "Vorticism"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: when does monday night raw come on hulu",
+                    "ground_truth": "the following day"
+                }
+            },
+            "target_neg": "",
+            "subject": "Toodyay Fire Station",
+            "loc_prompt": "nq question: last episode of big bang theory season 10 \"The Long Distance Dissonance\"",
+            "rephrase_prompt": "Who's the architect at Toodyay Fire Station?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.75
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.5
+                ]
+            },
+            "rephrase_acc": [
+                0.5
+            ]
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6666666666666666
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.6666666666666666
+                ]
+            },
+            "rephrase_acc": [
+                0.5
+            ]
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "Who is the architect of Toodyay Fire Station?",
+            "target_new": "Kohn Pedersen Fox",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "In which city are the headquarters of the architecture firm that designed Toodyay Fire Station?",
+                    "ground_truth": "New York City"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: when was the last time an american won the new york marathon",
+                    "ground_truth": "2017"
+                }
+            },
+            "target_neg": "",
+            "subject": "Toodyay Fire Station",
+            "loc_prompt": "nq question: what does it mean to be a unicorn in business a privately held startup company valued at over $1 billion",
+            "rephrase_prompt": "Who was behind the establishment of Toodyay Fire Station?"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.6666666666666666
+                ]
+            },
+            "rephrase_acc": [
+                0.5
+            ]
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.6
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.5
+                ]
+            },
+            "rephrase_acc": [
+                0.4
+            ]
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "What voice type is Lola Beeth?",
+            "target_new": "mezzo-oprano",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "What famous opera role might Lola Beeth be well-suited to perform as a mezzo-soprano?",
+                    "ground_truth": "Carmen"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: what is the altitude of the sacred valley in peru",
+                    "ground_truth": "3,000 metres (9,800 ft) at Pisac to 2,050 metres (6,730 ft) at the Urubamba River"
+                }
+            },
+            "target_neg": "",
+            "subject": "Lola Beeth",
+            "loc_prompt": "nq question: when was the hero with a thousand faces published 1949",
+            "rephrase_prompt": "What sort of voice is Lola Beeth?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.8
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    0.975609756097561
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.5
+                ]
+            },
+            "rephrase_acc": [
+                0.6
+            ]
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {
+                "one_hop_acc": [
+                    0.6
+                ]
+            },
+            "rephrase_acc": [
+                0.5
+            ]
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "What is the vocal range for Lola Beeth?",
+            "target_new": "mezzo soprano",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "one_hop": {
+                    "prompt": "What is the vocal range of notes typically for a mezzo soprano like Lola Beeth?",
+                    "ground_truth": "A3 to A5"
+                }
+            },
+            "locality": {
+                "neighborhood": {
+                    "prompt": "nq question: when does season 5 of ruby come out",
+                    "ground_truth": "October 14, 2017"
+                }
+            },
+            "target_neg": "",
+            "subject": "Lola Beeth",
+            "loc_prompt": "nq question: who played young george in it's a wonderful life Robert James Anderson",
+            "rephrase_prompt": "What is the vocal area of Lola Beeth?"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {
+                "neighborhood_acc": [
+                    1.0
+                ]
+            },
+            "portability": {
+                "one_hop_acc": [
+                    0.6
+                ]
+            },
+            "rephrase_acc": [
+                0.5
+            ]
+        }
+    }
+]
