@@ -172,3 +172,4 @@ cython_debug/
 
 
 examples/output/
+examples/logs/
