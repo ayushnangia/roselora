@@ -6,7 +6,7 @@ This is the official implementation of EMNLP'24 paper: [RoseLoRA: Row and Column
 
 *Credit: Our codebase is adapted from [EasyEdit](https://github.com/zjunlp/EasyEdit).*
 
-*Disclaimer: This repo only includes minimal functionality from EasyEdit to support RoseLoRA. We don't actively follow up with EasyEdit on other editing method implementations.*
+*Disclaimer: This repo only includes minimal functionality from EasyEdit to support RoseLoRA. We don't actively follow up with  [EasyEdit](https://github.com/zjunlp/EasyEdit) on other editing method implementations so we removed them. We recommend to put RoseLoRA into [EasyEdit](https://github.com/zjunlp/EasyEdit) if you work on knowledge editing.*
 
 
 ### Hyper-parameters. 
@@ -34,3 +34,18 @@ To run a experiment on ZsRE, go to `examples` and run `bash run_zsre.sh -n 10 -s
 
 We have set default parameters in the bash file, so you can provide only parameters that need change. To use default setting, simply call `bash run_zsre.sh`. 
 
+
+
+If you find our work helpful, please consider cite our paper 
+
+```
+@misc{wang2024roselorarowcolumnwisesparse,
+      title={RoseLoRA: Row and Column-wise Sparse Low-rank Adaptation of Pre-trained Language Model for Knowledge Editing and Fine-tuning}, 
+      author={Haoyu Wang and Tianci Liu and Ruirui Li and Monica Cheng and Tuo Zhao and Jing Gao},
+      year={2024},
+      eprint={2406.10777},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.10777}, 
+}
+```
