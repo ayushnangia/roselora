@@ -149,6 +149,8 @@ def execute_roselora(
             loss = (loss * label_mask[:,1:]).sum(1) / label_mask[:,1:].sum(1)
             loss = loss.mean()
 
+            loss_meter.update(loss.item(), n=bs)
+
             loss.backward()
                         
             for n, p in peft_model.named_parameters():
