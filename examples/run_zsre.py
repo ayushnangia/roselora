@@ -107,6 +107,8 @@ def main(args):
     # Formal name of base models
     if "llama-2" in hparams.model_name.lower():
         hparams.model_name = "meta-llama/Llama-2-7b-chat-hf"
+    elif "qwen2.5-3b" in hparams.model_name.lower():
+        hparams.model_name = "Qwen/Qwen2.5-3B-Instruct"
     else:
         raise NotImplementedError
     

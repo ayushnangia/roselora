@@ -29,11 +29,31 @@ To run a experiment on ZsRE, go to `examples` and run `bash run_zsre.sh -n 10 -s
 
 - `-r`: Enforce retrain or not. Setting to `0` will extract previous results if they exist. 
 
-- `-m`: LLM to edit. Only support `llama2` (LLaMA-2-7b-Chat). 
+- `-m`: LLM to edit. Supports `llama2` (LLaMA-2-7b-Chat) and `qwen25` (Qwen2.5-3B-Instruct). 
 
 
 We have set default parameters in the bash file, so you can provide only parameters that need change. To use default setting, simply call `bash run_zsre.sh`. 
 
+### Setup Qwen2.5-3B-Instruct
+
+To use Qwen2.5-3B-Instruct model with RoseLoRA:
+
+1. Download the model using the provided script:
+   ```bash
+   python download_qwen.py
+   ```
+
+2. Run the ZsRE experiment with Qwen:
+   ```bash
+   bash run_zsre.sh -m qwen25 -g 0 -n 10
+   ```
+
+3. Test the integration:
+   ```bash
+   python test_qwen_integration.py
+   ```
+
+The hyperparameter configuration for Qwen2.5-3B-Instruct is located in `hparams/RoseLoRA/qwen-3b.yaml`.
 
 
 If you find our work helpful, please consider cite our paper 

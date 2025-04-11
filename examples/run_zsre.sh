@@ -34,6 +34,8 @@ for base_models in $base_model_list; do
 
     if [[ $base_models = llama2 ]]; then
         base_model=llama-7b
+    elif [[ $base_models = qwen25 ]]; then
+        base_model=qwen-3b
     fi 
 
     echo RUN: $base_models
